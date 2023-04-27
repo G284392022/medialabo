@@ -17,9 +17,11 @@ h2 {
 }
 
 div#zentai {
-	display: flex;
-	flex-direction: row;
-	width: 1024px;
+	display: gridx;
+	grid-template-areaste-columns: 1fr1fr;
+	grid-auto-rows:200px 200px;
+	grid-gap:10px
+	width: 1024px; 
 }
 
 div#zentai > div {
