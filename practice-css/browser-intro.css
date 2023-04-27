@@ -17,11 +17,17 @@ h2 {
 }
 
 div#zentai {
-	display: gridx;
+	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-auto-rows:200px 200px;
 	grid-gap:10px;
 	width : 1024px;
+}
+img.firefox_icon.png {
+	float: right;
+	width: 72px;
+    height: 72px;
+    margin: 10px 0 10px 10px;
 }
 
 div#zentai > div {
