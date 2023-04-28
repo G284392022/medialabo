@@ -3,5 +3,6 @@ h1 {
 	text-shadow : black 2px 0px 6px;
 }
 h2{
-    color: green;
+    color: blue;
+	text-shadow : white 2px 0px 6px;
 };
