@@ -5,9 +5,8 @@ h1 {
 h2{
     color:  black;
 	text-shadow : blue 2px 0px 6px;
-    special {
-        color: orange;
-        
-
-    }
+}
+h3{
+    color:white;
+    background-color: blueviolet;
 }
