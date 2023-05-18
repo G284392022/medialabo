@@ -18,9 +18,9 @@ function hantei() {
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
   let yoso = 4;
 
-  for(kaisu;i<3;i++){
+  for(a of kaisu){
      if(kotae!=4){
-        if(katae>yoso){
+        if(kotae>yoso){
             console.log("まちがい.答えはもっと大きいですよ");
         }else {
             console.log("まちがい.答えはもっと小さいですよ");
