@@ -14,32 +14,32 @@ let data = [
 //// 注意: 以上は編集しないこと!
 
 // 練習4-2 メッセージ追加プログラム 
-let p6 = document.querySelector('h2#ex42');
-let p = document.createElement('p');
-p.textContent = '写真表と都市の緯度経度のページです';
-p6.insertAdjacentElement('afterend', p);
-let p1 = querySelector('p');
+ let p6 = document.querySelector('h2#ex42');
+ let j = document.createElement('p');
+j.textContent = '写真表と都市の緯度経度のページです';
+p6.insertAdjacentElement('afterend', j);
+let p1 = document.createElement('p');
 p1.style.textEmphasis='sesame green';
 // 練習4-3 写真表作成プログラム
 //taro
-let div = document.querySelector('div#phototable');
-let img = document.createElement('img');
+ let div = document.querySelector('div#phototable');
+ let img = document.createElement('img');
 img.setAttribute('src','taro.png');
-let p = document.createElement('p');
+ let p = document.createElement('p');
 p.insertAdjacentElement('beforeend',img);
 div.insertAdjacentElement('beforeend',p);
 //jiro
-let a = document.querySelector('div#phototable');
-let b= document.createElement('img');
-img.setAttribute('src','jiro.png');
-let c = document.createElement('p');
+ let a = document.querySelector('div#phototable');
+ let b= document.createElement('img');
+b.setAttribute('src','jiro.png');
+ let c = document.createElement('p');
 c.insertAdjacentElement('beforeend',b);
 a.insertAdjacentElement('beforeend',c);
 //hanako
-let d = document.querySelector('div#phototable');
-let e = document.createElement('img');
-img.setAttribute('src','hanako.png');
-let f = document.createElement('p');
+ let d = document.querySelector('div#phototable');
+ let e = document.createElement('img');
+e.setAttribute('src','hanako.png');
+ let f = document.createElement('p');
 f.insertAdjacentElement('beforeend',e);
 d.insertAdjacentElement('beforeend',f);
 // 練習4-4 箇条書き削除プログラム
@@ -47,7 +47,7 @@ w = document.querySelector('ul#location');
 w.remove();
 
 // 練習4-5 箇条書き追加プログラム
-let l = document.querySelector('ul#location');
+ l = document.querySelector('ul#location');
 for(let za of date){
 	let ri = document.createElement('li');
 	ri.textContent = za.name + '・・・ 緯度:' + za.lat + ', 緯度:' + za.lng;
