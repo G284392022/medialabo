@@ -15,7 +15,7 @@ let kaisu = 0;
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
-  let yoso = ;
+  let yoso = span;
 
   for(let i =0; i<=5; i++){
     console.log(i+ "回目の予想:" +yoso);

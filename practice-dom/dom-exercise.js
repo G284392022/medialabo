@@ -43,14 +43,16 @@ e.setAttribute('src','hanako.png');
 f.insertAdjacentElement('beforeend',e);
 d.insertAdjacentElement('beforeend',f);
 // 練習4-4 箇条書き削除プログラム
-w = document.querySelector('ul#location');
-w.remove();
+let w = document.querySelectorAll('ul#location >li');
+for(let y of w){
+	y.remove();
+}
 
 // 練習4-5 箇条書き追加プログラム
- l = document.querySelector('ul#location');
-for(let za of date){
-	let ri = document.createElement('li');
-	ri.textContent = za.name + '・・・ 緯度:' + za.lat + ', 緯度:' + za.lng;
-	l.insertAdjacentElement("beforeend", ri);
+ let l = document.querySelector('ul#location');
+for( zahyo  of data){
+	let risuto = document.createElement('li');
+	risuto.textContent = zahyo.name + '・・・ 緯度:' + zahyo.lat + ', 緯度:' + zahyo.lng;
+	l.insertAdjacentElement("beforeend", risuto);
 }
 
