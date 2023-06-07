@@ -49,11 +49,11 @@ let data = {
     console.log(a.name);
   }
   
-  let aa1 = document.querySelector('buttom#suichi');
-  aa1.addEventListener('click', hantei);
+  let ax = document.querySelector('buttom#suichi');
+  ax.addEventListener('click', hantei);
   
   function hantei() {
-    let aa2= document.querySelector('select#mati');
+    let aa2= document.querySelector('select#tenki');
     let aa3 = aa2.selectedIndex;  // idx 番目の option が選択された
   
     let aa4 = aa2.querySelectorAll('option');  // s の子要素 option をすべて検索
