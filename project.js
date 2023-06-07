@@ -49,7 +49,7 @@ let data = {
     console.log(a.name);
   }
   
-  let aa1 = document.querySelector('suichi#botton');
+  let aa1 = document.querySelector('buttom#suichi');
   aa1.addEventListener('click', hantei);
   
   function hantei() {
