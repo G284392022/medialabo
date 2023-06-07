@@ -57,7 +57,7 @@ let data = {
     let aa3 = aa2.selectedIndex;  // idx 番目の option が選択された
   
     let aa4 = aa2.querySelectorAll('option');  // s の子要素 option をすべて検索
-    let aa5 = aa4.item(a3);       // os の idx 番目の要素
+    let aa5 = aa4.item(a33);       // os の idx 番目の要素
   
       let kensaku=aa5.value;
       let url = "https://www.nishita-lab.org/web-contents/jsons/openweather/"+kensaku+".json";
