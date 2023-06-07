@@ -106,8 +106,7 @@ let data = {
       
       let wet8 = document.querySelector("span#h");
       wet8.textContent=data.main.humidity; 
-      let wet9 = document.querySelector("span#i");
-      wet9.textContent=data.main.humidity;
+      
   }
   
   // 通信エラーが発生した時の処理
