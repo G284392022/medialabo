@@ -96,17 +96,17 @@ let data = {
       wet4.textContent=data.coord.lat;
 
       let wet5=document.querySelector("span#e");
-      wet5.textContent=data.main.temp_max;
+      wet5.textContent=data.main.temp_min;
 
       let wet6=document.querySelector("span#f");
-      wet6.textContent=data.main.temp_min;
-
-      let wet7=document.querySelector("span#g");
-      wet7.textContent=data.main.temp;
+      wet6.textContent=data.main.temp_max;
       
-      let wet8 = document.querySelector("span#h");
+      let wet8 = document.querySelector("span#g");
       wet8.textContent=data.main.humidity; 
-      
+      let wet9 = document.querySelector("span#h");
+      wet9.textContent=data.wind.speed; 
+      let wet10 = document.querySelector("span#i");
+      wet10.textContent=data.wind.deg; 
   }
   
   // 通信エラーが発生した時の処理
