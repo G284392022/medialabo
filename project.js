@@ -1,5 +1,3 @@
-
-
 let data = {
     "coord": {
       "lon": 116.3972,
@@ -54,17 +52,17 @@ let data = {
     console.log(a.name);
   }
   
-  let btn = document.querySelector('button#botton');
-  btn.addEventListener('click', hantei);
+  let aa1 = document.querySelector('button#botton');
+  aa1.addEventListener('click', hantei);
   
   function hantei() {
-    let s= document.querySelector('select#mati');
-    let idx = s.selectedIndex;  // idx 番目の option が選択された
+    let aa2= document.querySelector('select#mati');
+    let aa3 = aa2.selectedIndex;  // idx 番目の option が選択された
   
-    let os = s.querySelectorAll('option');  // s の子要素 option をすべて検索
-    let o = os.item(idx);       // os の idx 番目の要素
+    let aa4 = aa2.querySelectorAll('option');  // s の子要素 option をすべて検索
+    let aa5 = aa4.item(a3);       // os の idx 番目の要素
   
-      let kensaku=o.value;
+      let kensaku=aa5.value;
       let url = "https://www.nishita-lab.org/web-contents/jsons/openweather/"+kensaku+".json";
       console.log(url);
       
@@ -88,22 +86,29 @@ let data = {
       }
   
       // data をコンソールに出力
-      let tenki1=document.querySelector("span#a1");
-      tenki1.textContent=data.name;
-      let tenki2=document.querySelector("span#a2");
-      tenki2.textContent=data.weather[0].description;
-      let tenki3=document.querySelector("span#a3");
-      tenki3.textContent=data.coord.lon;
-      let tenki4=document.querySelector("span#a4");
-      tenki4.textContent=data.coord.lat;
-      let tenki5=document.querySelector("span#a5");
-      tenki5.textContent=data.main.temp_max;
-      let tenki6=document.querySelector("span#a6");
-      tenki6.textContent=data.main.temp_min;
-      let tenki7=document.querySelector("span#a7");
-      tenki7.textContent=data.main.temp;
-      let tenki8 = document.querySelector("span#a8");
-      tenki8.textContent=data.main.humidity;
+      let wet1=document.querySelector("span#a1");
+      wet1.textContent=data.name;
+
+      let wet2=document.querySelector("span#a2");
+      wet2.textContent=data.weather[0].description;
+
+      let wet3=document.querySelector("span#a3");
+      wet3.textContent=data.coord.lon;
+
+      let wet4=document.querySelector("span#a4");
+      wet4.textContent=data.coord.lat;
+
+      let wet5=document.querySelector("span#a5");
+      wet5.textContent=data.main.temp_max;
+
+      let wet6=document.querySelector("span#a6");
+      wet6.textContent=data.main.temp_min;
+
+      let wet7=document.querySelector("span#a7");
+      wet7.textContent=data.main.temp;
+      
+      let wet8 = document.querySelector("span#a8");
+      wet8.textContent=data.main.humidity;
   }
   
   // 通信エラーが発生した時の処理
