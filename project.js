@@ -83,29 +83,31 @@ let data = {
       }
   
       // data をコンソールに出力
-      let wet1=document.querySelector("span#a1");
+      let wet1=document.querySelector("span#a");
       wet1.textContent=data.name;
 
-      let wet2=document.querySelector("span#a2");
+      let wet2=document.querySelector("span#b");
       wet2.textContent=data.weather[0].description;
 
-      let wet3=document.querySelector("span#a3");
+      let wet3=document.querySelector("span#c");
       wet3.textContent=data.coord.lon;
 
-      let wet4=document.querySelector("span#a4");
+      let wet4=document.querySelector("span#d");
       wet4.textContent=data.coord.lat;
 
-      let wet5=document.querySelector("span#a5");
+      let wet5=document.querySelector("span#e");
       wet5.textContent=data.main.temp_max;
 
-      let wet6=document.querySelector("span#a6");
+      let wet6=document.querySelector("span#f");
       wet6.textContent=data.main.temp_min;
 
-      let wet7=document.querySelector("span#a7");
+      let wet7=document.querySelector("span#g");
       wet7.textContent=data.main.temp;
       
-      let wet8 = document.querySelector("span#a8");
-      wet8.textContent=data.main.humidity;
+      let wet8 = document.querySelector("span#h");
+      wet8.textContent=data.main.humidity; 
+      let wet9 = document.querySelector("span#i");
+      wet9.textContent=data.main.humidity;
   }
   
   // 通信エラーが発生した時の処理
