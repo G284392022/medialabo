@@ -1,7 +1,7 @@
 let data = {
     "coord": {
-      "lon": 116.3972,
-      "lat": 39.9075
+      "lon": -0.1257,
+      "lat": 51.5085
     },
     "weather": [
       {
@@ -13,35 +13,32 @@ let data = {
     ],
     "base": "stations",
     "main": {
-      "temp": 9.94,
-      "feels_like": 8.65,
-      "temp_min": 9.94,
-      "temp_max": 9.94,
-      "pressure": 1022,
-      "humidity": 14,
-      "sea_level": 1022,
-      "grnd_level": 1016
-    },
+      "temp": 3.63,
+      "feels_like": 0.43,
+      "temp_min": 2.7,
+      "temp_max": 4.59,
+      "pressure": 1027,
+      "humidity": 79,
     "visibility": 10000,
+    },
     "wind": {
-      "speed": 2.65,
-      "deg": 197,
-      "gust": 4.84
+      "speed": 3.6,
+      "deg": 50,
     },
     "clouds": {
-      "all": 53
-    },
-    "dt": 1646542386,
+      "all": 75,
+    "dt": 1646542356
+    },  
     "sys": {
-      "type": 1,
-      "id": 9609,
-      "country": "CN",
-      "sunrise": 1646520066,
-      "sunset": 1646561447
+      "type": 2,
+      "id": 2019646,
+      "country": "GB",
+      "sunrise": 1646548519,
+      "sunset": 1646588915
     },
-    "timezone": 28800,
-    "id": 1816670,
-    "name": "北京市",
+    "timezone": 0,
+    "id": 2643743,
+    "name": "ロンドン",
     "cod": 200
   };
   
@@ -52,7 +49,7 @@ let data = {
     console.log(a.name);
   }
   
-  let aa1 = document.querySelector('button#botton');
+  let aa1 = document.querySelector('suichi#botton');
   aa1.addEventListener('click', hantei);
   
   function hantei() {
